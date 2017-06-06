@@ -1,4 +1,7 @@
-# Created by https://www.gitignore.io/api/sass,node,macos,windows
+# Created by https://www.gitignore.io/api/git,node,sass,macos,windows
+
+### Git ###
+*.orig
 
 ### macOS ###
 *.DS_Store
@@ -113,7 +116,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.gitignore.io/api/sass,node,macos,windows
+# End of https://www.gitignore.io/api/git,node,sass,macos,windows
 
 ### Folders ###
 public
