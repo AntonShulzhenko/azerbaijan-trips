@@ -1,3 +1,56 @@
 {
-  "pageTitle": "Azerbaijan Trips"
+  "pageTitle": "Azerbaijan Trips",
+  "benefits": [
+    {
+      "text": "7 nights",
+      "class": "nights"
+    },
+    {
+      "text": "transfer",
+      "class": "transfer"
+    },
+    {
+      "text": "excursion",
+      "class": "excursion"
+    },
+    {
+      "text": "guide",
+      "class": "guide"
+    },
+    {
+      "text": "support",
+      "class": "support"
+    }
+  ],
+  "inclusionsList": ["Daily Transfers in Bus for 6 pax.", "3 days excursions in Baku: City Historical tour, Absheron Tour with transfer and english speaking guide", "3 days Qabala and Oguz", "Transfers from/to Airport, Baku- Qabala-Baku", "Accommodation in all cities"],
+  "footer": [
+    {
+      "icon": "fa-skype",
+      "text": "skype call",
+      "type": "skype",
+      "link": "Azerbaijan Trips",
+      "href": "AzerbaijanTrips"
+    },
+    {
+      "icon": "fa-phone",
+      "text": "call us",
+      "type": "tel",
+      "link": "+420 77 306 55 50",
+      "href": "420773065550"
+    },
+    {
+      "icon": "fa-envelope",
+      "text": "e-mail us",
+      "type": "mailto",
+      "link": "info@azerbaijantrips.com",
+      "href": "info@azerbaijantrips.com"
+    },
+    {
+      "icon": "fa-globe",
+      "text": "visit site",
+      "type": "site",
+      "link": "http://www.azerbaijantrips.com",
+      "href": "http://www.azerbaijantrips.com"
+    }
+  ]
 }

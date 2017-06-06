@@ -1,0 +1,16 @@
+footer.footer
+  .container.flex
+    each item in footer
+      .footer__item
+        p.footer__title
+          i(class="fa " + item.icon)
+          | #{item.text}
+        
+        if item.type !== 'skype' && item.type !== 'site'
+          a.footer__link(href= item.type + ":" + item.href) #{item.link}
+          
+        if item.type === 'skype'
+          a.footer__link(href= item.type + ":" + item.href + "?call") #{item.link}
+          
+        if item.type === 'site'
+          a.footer__link(href= item.href) #{item.link}

@@ -1,0 +1,35 @@
+.u-list {
+  li {
+    padding-left: 32px;
+    font: {
+      size: 16px;
+    }
+    line-height: 28px;
+    position: relative;
+    &::before {
+      content: '';
+      font-family: $fa;
+      position: absolute;
+      left: 0;
+      top: 0;
+    }
+  }
+
+  &_inclusions {
+    li {
+      &::before {
+        content: '\f058';
+        color: $green;
+      }
+    }
+  }
+
+  &_exclusions {
+    li {
+      &::before {
+        content: '\f056';
+        color: $red;
+      }
+    }
+  }
+}

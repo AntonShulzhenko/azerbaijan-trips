@@ -1,0 +1,27 @@
+.footer {
+  padding: 40px 0 24px;
+  background-color: $grey;
+
+  &__title {
+    font: {
+      weight: 800;
+    }
+    line-height: 1;
+    color: $dark-grey;
+    text-transform: uppercase;
+    margin: 0 0 24px;
+
+    i {
+      margin-right: 4px;
+    }
+  }
+
+  &__link {
+    font: {
+      size: 16px;
+      weight: 800;
+    }
+    line-height: 1;
+    color: $black;
+  }
+}

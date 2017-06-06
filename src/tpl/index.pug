@@ -3,6 +3,42 @@ html(lang="en")
   include partials/head
     
   body.main-page
-    header.header
-      .container
-        h1 Hello Azerbaijan!!!
+    include partials/header
+    
+    main.main
+      section.title-section
+        .container
+          h1.title-section__title Baku - Love at first sight!
+        
+      section.section.section_blue.benefits
+        .container.flex
+          each item in benefits
+            div(class="benefits__item " + item.class)
+              p #{item.text}
+              
+      section.section
+        .container.flex
+          .column
+            h2 Inclusions
+            
+            ul.u-list.u-list_inclusions
+              each li in inclusionsList
+                li #{li}
+                
+          .column
+            h2 Exclusions
+            
+            ul.u-list.u-list_exclusions
+              li Flight
+              
+        .container.flex.m-top-56
+          .column
+            h2 Cancellation policy
+            p Cancellation possible 48 hours prior to arrival
+                
+          .column
+            h2 Payment policy
+            p Cash Payment upon arrival
+            
+            
+    include partials/footer

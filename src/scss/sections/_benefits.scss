@@ -1,0 +1,51 @@
+.benefits {
+  &__item {
+    font: {
+      size: 20px;
+    }
+    line-height: 1;
+    color: $white;
+    text-align: center;
+    position: relative;
+    &::before {
+      content: '';
+      display: block;
+      width: 54px;
+      height: 44px;
+      margin: 0 auto 16px;
+      background: {
+        image: url(../img/benefits.png);
+        repeat: no-repeat;
+      }
+    }
+    &.nights {
+      &::before {
+        background-position: left center;
+      }
+    }
+    &.transfer {
+      &::before {
+        background-position: -54px center;
+      }
+    }
+    &.excursion {
+      &::before {
+        background-position: -108px center;
+      }
+    }
+    &.guide {
+      &::before {
+        background-position: -162px center;
+      }
+    }
+    &.support {
+      &::before {
+        background-position: right center;
+      }
+    }
+
+    p {
+      margin: 0;
+    }
+  }
+}
