@@ -1,0 +1,99 @@
+.program {
+
+  &__inner {
+    border-top: 1px solid $blue;
+    padding-left: 80px;
+  }
+
+  table {
+    tr {
+      &:first-child {
+        td {
+          border-top: none;
+        }
+      }
+    }
+    td {
+      padding-left: 40px;
+      padding-right: 40px;
+      vertical-align: top;
+      &:first-child {
+        padding-left: 0;
+        border-left: none;
+        max-width: 150px;
+        width: 150px;
+      }
+      &:last-child {
+        padding-right: 0;
+        border-right: none;
+      }
+      &.icon {
+        width: 96px;
+        max-width: 96px;
+        background-color: $grey;
+        text-align: center;
+        padding: 8px 0 0;
+        position: relative;
+        &::before {
+          content: '';
+          display: inline-block;
+          width: 22px;
+          height: 21px;
+          background: {
+            image: url(../img/program-icons.png);
+            repeat: no-repeat;
+          }
+        }
+        &_cup {
+          &::before {
+            background: {
+              position: left center;
+            }
+          }
+        }
+        &_bus {
+          &::before {
+            background: {
+              position: -22px center;
+            }
+          }
+        }
+        &_location {
+          &::before {
+            background: {
+              position: -44px center;
+            }
+          }
+        }
+        &_museum {
+          &::before {
+            background: {
+              position: -66px center;
+            }
+          }
+        }
+        &_restaurant {
+          &::before {
+            background: {
+              position: -88px center;
+            }
+          }
+        }
+        &_park {
+          &::before {
+            background: {
+              position: -110px center;
+            }
+          }
+        }
+        &_hotel {
+          &::before {
+            background: {
+              position: right center;
+            }
+          }
+        }
+      }
+    }
+  }
+}

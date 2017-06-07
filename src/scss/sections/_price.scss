@@ -3,8 +3,6 @@
   border-top: 1px solid #e8e8e8;
 
   table {
-    width: 100%;
-    border-collapse: collapse;
     thead {
       border-bottom: 2px solid $blue;
       th {
@@ -21,10 +19,6 @@
       }
     }
     td {
-      padding: 8px 16px;
-      line-height: 24px;
-      vertical-align: middle;
-      border: 1px dashed #e8e8e8;
       &:not(:first-child) {
         text-align: center;
         padding-left: 32px;

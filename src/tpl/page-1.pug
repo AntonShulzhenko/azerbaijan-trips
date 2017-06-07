@@ -1,0 +1,26 @@
+doctype
+html(lang="en")
+  include partials/head
+    
+  body
+    include partials/header
+    
+    main.main
+      section.title-section
+        .container
+          h1.title-section__title Tour program
+            
+      section.section.program
+        .container
+          h2 Day 1 — BAKU HISTORICAL EXCURSION
+          
+          .program__inner
+            table
+              tbody
+                each tr in program
+                  tr
+                    td #{tr.time}
+                    td(class="icon " + tr.icon)
+                    td #{tr.text}
+            
+    include partials/footer

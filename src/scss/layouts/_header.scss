@@ -3,16 +3,25 @@
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
 
+  &__logo {
+    display: block;
+
+    img {
+      display: block;
+      max-width: 100%;
+      max-height: 40px;
+    }
+  }
+
   &__contacts {
     display: flex;
-    flex-direction: column;
-    align-content: flex-end;
+    align-items: center;
 
     a {
-      text-align: right;
       font-size: 16px;
       font-weight: 300;
       color: $black;
+      margin-left: 56px;
     }
   }
 }

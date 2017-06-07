@@ -30,6 +30,43 @@
     "Hotel check-in time is from 14:00 onwards and check-out time is at 12:00.",
     "In case you choose cash payment method upon arrival please confirm your trip dates by sending us  the confirmation to <a href=\"mailto:info@azerbaijantrips.com\">info@azerbaijantrips.com</a>."
   ],
+  "program": [
+    {
+      "time": "08:00 - 11:00",
+      "icon": "icon_cup",
+      "text": "Breakfast at the hotel"
+    },
+    {
+      "time": "011:00",
+      "icon": "icon_bus",
+      "text": "Departure from the hotel"
+    },
+    {
+      "time": "11:30 - 13:00",
+      "icon": "icon_location",
+      "text": "Walking sightseeing tour of the “Inner City” (Maiden Tower (XII century), Juma Mosque (XII century), Caravanserai’s(XIV-XV centuries)"
+    },
+    {
+      "time": "13:00 – 14:00",
+      "icon": "icon_museum",
+      "text": " Excursion to the museum complex “Shirvanshahs Palace” (XV century)"
+    },
+    {
+      "time": "14:00 – 15:00",
+      "icon": "icon_restaurant",
+      "text": "Lunch (not included to the price)"
+    },
+    {
+      "time": "16:00",
+      "icon": "icon_park",
+      "text": "Walk through the National Park (Boulevard). With this you can see Crystal Hall, National Flag Square, Philharmonic Hall, “Little Venice”, The Museum of Mugam, and The Carpet Museum."
+    },
+    {
+      "time": "18:00",
+      "icon": "icon_hotel",
+      "text": "Back to the hotel"
+    }
+  ],
   "footer": [
     {
       "icon": "fa-skype",
