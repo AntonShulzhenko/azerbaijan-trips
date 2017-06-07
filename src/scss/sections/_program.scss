@@ -6,6 +6,7 @@
   }
 
   table {
+    margin-bottom: 24px;
     tr {
       &:first-child {
         td {
@@ -30,9 +31,10 @@
       &.icon {
         width: 96px;
         max-width: 96px;
-        background-color: $grey;
-        text-align: center;
         padding: 8px 0 0;
+        background-color: $grey;
+        border: 1px solid $grey;
+        text-align: center;
         position: relative;
         &::before {
           content: '';
@@ -94,6 +96,23 @@
           }
         }
       }
+    }
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 24px;
+  }
+
+  figure {
+    margin-top: 32px;
+    padding-bottom: 32px;
+    border-bottom: 2px solid $blue;
+
+    img {
+      display: block;
+      width: 100%;
+      height: auto;
     }
   }
 }

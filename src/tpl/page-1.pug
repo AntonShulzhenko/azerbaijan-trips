@@ -3,7 +3,7 @@ html(lang="en")
   include partials/head
     
   body
-    include partials/header
+    include partials/header-sm
     
     main.main
       section.title-section
@@ -22,5 +22,12 @@ html(lang="en")
                     td #{tr.time}
                     td(class="icon " + tr.icon)
                     td #{tr.text}
+                    
+            h3 Description about day (if needed)
+            
+            p Halal tours is a relatively new trend in tourism, but it is becoming popular at a quick pace Travellers choosing halal tours may have their vacation following their Islamic beliefs, traditions, practice: all water, SPA procedures and even beaches are divided into separate ones for women and men, and cafes and restaurants have food following Halal standards and only non-alcoholic beverages
+            
+            figure
+              img(src="img/image.jpg", alt="Azerbaijan Trips")
             
     include partials/footer

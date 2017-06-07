@@ -1,0 +1,21 @@
+doctype
+html(lang="en")
+  include partials/head
+    
+  body
+    include partials/header-sm-2
+    
+    main.main
+      section.section.program
+        .container
+          h2 Day 2 — BAKU HISTORICAL EXCURSION
+          
+          .program__inner
+            table
+              tbody
+                each tr in program
+                  tr
+                    td(class="icon " + tr.icon)
+                    td #{tr.text}
+            
+    include partials/footer

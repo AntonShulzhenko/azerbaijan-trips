@@ -7,6 +7,7 @@ html {
 body {
   display: flex;
   flex-direction: column;
+  width: 1240px;
   min-height: 1754px;
   padding-top: 8px;
   margin-left: auto;
@@ -21,12 +22,6 @@ body {
   line-height: 1.5;
   &.main-page {
     padding-top: 22px;
-
-    .header__logo {
-      img {
-        max-height: 100%;
-      }
-    }
 
     .header__contacts {
       display: flex;
@@ -54,6 +49,15 @@ h2 {
   color: $blue;
   margin: 0 0 24px;
 }
+h3 {
+  font: {
+    family: $content-font;
+    size: 18px;
+    weight: 900;
+  }
+  line-height: 24px;
+  margin: 0 0 16px;
+}
 a {
   color: $blue;
   font-weight: 800;
@@ -79,12 +83,14 @@ table {
     padding: 8px 16px;
     line-height: 24px;
     vertical-align: middle;
-    border: 1px dashed #e8e8e8;
+    border: 1px dashed #e7e7e7;
   }
 }
+figure {
+  margin: 0 auto;
+}
 .container {
-  width: 100%;
-  max-width: 1240px;
+  width: 1240px;
   margin: 0 auto;
   padding: 0 48px;
 }
