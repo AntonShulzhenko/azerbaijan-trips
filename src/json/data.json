@@ -23,6 +23,13 @@
     }
   ],
   "inclusionsList": ["Daily Transfers in Bus for 6 pax.", "3 days excursions in Baku: City Historical tour, Absheron Tour with transfer and english speaking guide", "3 days Qabala and Oguz", "Transfers from/to Airport, Baku- Qabala-Baku", "Accommodation in all cities"],
+  "terms": [
+    "The rooms and rates are subject to availability at the time of booking / confirmation.",
+    "Hotel, sightseeing, meals and transfer rate might change with prior email notification.",
+    "Date changes after the reservation might affect the final price.",
+    "Hotel check-in time is from 14:00 onwards and check-out time is at 12:00.",
+    "In case you choose cash payment method upon arrival please confirm your trip dates by sending us  the confirmation to <a href=\"mailto:info@azerbaijantrips.com\">info@azerbaijantrips.com</a>."
+  ],
   "footer": [
     {
       "icon": "fa-skype",

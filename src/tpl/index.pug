@@ -31,7 +31,7 @@ html(lang="en")
             ul.u-list.u-list_exclusions
               li Flight
               
-        .container.flex.m-top-56
+        .container.flex.m-top-50
           .column
             h2 Cancellation policy
             p Cancellation possible 48 hours prior to arrival
@@ -40,5 +40,53 @@ html(lang="en")
             h2 Payment policy
             p Cash Payment upon arrival
             
+      section.section.price
+        .container
+          h2 Prices
+          
+          table
+            thead
+              tr
+                th Hotels
+                th Qty
+                th 8 SNGL rooms
+                th 8 SNGL rooms
+                
+            tfoot
+              tr
+                td Total
+                td 15 pax
+                td(colspan="2")
+              tr
+                td Price Per 1 Person
+                td 1 pax
+                td(colspan="2")
+                  
+            tbody
+              tr
+                td 1. Boulevard Hotel 5* taxes included
+                td 5 nights
+                td 3690 $
+                td 1620 $
+              tr
+                td 2. 4 Lunch and 1 Dinner with show
+                td 75 meals
+                td(colspan="2") 5310 $
+              tr
+                td 3. Sightseeing
+                td(rowspan="3")
+                td(rowspan="3", colspan="2") 1850 $
+              tr
+                td 4. Transfers
+              tr
+                td 5. Museum entries
+                
+      section.section.section_grey.terms
+        .container
+          h2 Terms & conditions
+          
+          ol.o-list
+            each li in terms
+              li !{li}
             
     include partials/footer

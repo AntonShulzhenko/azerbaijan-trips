@@ -1,7 +1,17 @@
 .section {
-  padding: 40px 0;
+  padding: 32px 0;
 
   &_blue {
     background-color: $blue;
+  }
+
+  &_grey {
+    background-color: $grey;
+  }
+
+  p {
+    &:last-child {
+      margin-bottom: 0;
+    }
   }
 }

@@ -1,0 +1,54 @@
+.price {
+  padding-bottom: 70px;
+  border-top: 1px solid #e8e8e8;
+
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    thead {
+      border-bottom: 2px solid $blue;
+      th {
+        font-size: 18px;
+        font-weight: 800;
+        padding: 8px 0;
+        &:first-child {
+          text-align: left;
+        }
+        &:nth-child(2) {
+          padding-right: 32px;
+          text-align: right;
+        }
+      }
+    }
+    td {
+      padding: 8px 16px;
+      line-height: 24px;
+      vertical-align: middle;
+      border: 1px dashed #e8e8e8;
+      &:not(:first-child) {
+        text-align: center;
+        padding-left: 32px;
+        padding-right: 32px;
+      }
+      &:nth-child(2) {
+        text-align: right;
+      }
+    }
+    tfoot {
+      border-bottom: 2px solid $blue;
+      td {
+        font-weight: 800;
+        font-size: 18px;
+      }
+      tr {
+        &:last-child {
+          td {
+            &:first-child {
+              text-transform: uppercase;
+            }
+          }
+        }
+      }
+    }
+  }
+}

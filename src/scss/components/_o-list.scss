@@ -1,0 +1,11 @@
+.o-list {
+  margin: 0;
+  padding: 0 0 0 20px;
+
+  li {
+    margin-bottom: 6px;
+    &:last-child {
+      margin-bottom: 0;
+    }
+  }
+}
