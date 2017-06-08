@@ -90,3 +90,49 @@ html(lang="en")
               li !{li}
             
     include partials/footer
+    
+    include partials/header-sm
+    
+    main.main
+      section.title-section
+        .container
+          h1.title-section__title Tour program
+            
+      section.section.program
+        .container
+          h2 Day 1 — BAKU HISTORICAL EXCURSION
+          
+          .program__inner
+            table
+              tbody
+                each tr in program
+                  tr
+                    td #{tr.time}
+                    td(class="icon " + tr.icon)
+                    td #{tr.text}
+                    
+            h3 Description about day (if needed)
+            
+            p Halal tours is a relatively new trend in tourism, but it is becoming popular at a quick pace Travellers choosing halal tours may have their vacation following their Islamic beliefs, traditions, practice: all water, SPA procedures and even beaches are divided into separate ones for women and men, and cafes and restaurants have food following Halal standards and only non-alcoholic beverages
+            
+            figure
+              img(src="img/image.jpg", alt="Azerbaijan Trips")
+            
+    include partials/footer
+    
+    include partials/header-sm-2
+    
+    main.main
+      section.section.program
+        .container
+          h2 Day 2 — BAKU HISTORICAL EXCURSION
+          
+          .program__inner
+            table
+              tbody
+                each tr in program
+                  tr
+                    td(class="icon " + tr.icon)
+                    td #{tr.text}
+            
+    include partials/footer

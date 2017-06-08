@@ -1,7 +1,15 @@
 .header {
+  margin-top: 24px;
   padding: 40px 0;
   border-top: 1px solid #e8e8e8;
   border-bottom: 1px solid #e8e8e8;
+  &_page {
+    margin-top: 8px;
+    .header__contacts {
+      flex-direction: row;
+      align-items: center;
+    }
+  }
 
   &__logo {
     display: block;
@@ -14,6 +22,8 @@
   &__contacts {
     display: flex;
     align-items: center;
+    flex-direction: column;
+    align-items: flex-end;
 
     a {
       font-size: 16px;
